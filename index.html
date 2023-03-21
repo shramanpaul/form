@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Registration form</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+      <h1 id="title">Camper Coffee Survey form</h1>
+      <p id="description">Thank you for taking the time to help us improve the platform</p>
+      <form id="survey-form" action="">
+    <fieldset> <label id="name-label">Name : <input class="input" id="name" placeholder="Enter your name" type="text" required>
+     </label>
+    <label id="email-label" type="email" >Email : <input class="input" id="email" type="email"  placeholder="Enter your email" required>
+     </label>
+    <label id="number-label">Number : <input id="number" class="input number" type="number" minlength="10" maxlength="12" min="1000000000" max="999999999999" placeholder="Enter your number" required>
+     </label> 
+     </fieldset>
+     <fieldset><label>Favourite product of Camper Coffee <select id="dropdown"><option>select an option</option>
+    <option>French Vanilla</option>
+    <option>Pumpkin Spice</option>
+    <option>Donut</option>
+    </select></label>
+    <label class="heading">Would you recommend to other people ? </label>
+    <label><input type="radio" name="sugg" value="value">Definetly</label>
+    <label><input type="radio" name="sugg" value="value">Maybe
+    </label><label class="heading">Improvements required in </label>
+    <label><input type="checkbox" value="value2">Customer-Service</label>
+    <label><input type="checkbox" value="value2">Add more flavours</label>
+    <label><input type="checkbox" value="value2">Lower the Cost</label>
+    <label><textarea placeholder="enter your feedback..." ></textarea></label>
+    <label for="terms-and-conditions">
+      <input id="terms-and-conditions" type="checkbox" required name="terms-and-conditions" class="inline" /> I accept the <a href="https://shramanpaul.github.io/camper-coffee/">terms and conditions</a>
+    </label>
+   </fieldset>
+   <fieldset><label><input type="submit" id="submit" value="Submit"></label></fieldset>
+      </form>
+      <footer><p><a href="https://shramanpaul.github.io/camper-coffee/">Visit our website</a></p></footer>
+      </body>
+      </html>

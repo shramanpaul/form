@@ -1,0 +1,60 @@
+body{
+    background-image: url(https://media.istockphoto.com/id/1266428142/photo/wood-table-on-blurred-of-office-building.jpg?s=612x612&w=0&k=20&c=HSISEopXbenFgdtT5mAbi-czoNjzfgtTm6yA1iVzpkw=);
+    background-size: cover;
+    opacity: 8;
+}
+h1, p{
+    text-align: center;
+    color:rgb(24, 204, 27);
+    text-shadow: 1px 1px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   
+    margin-top: 40px;
+    text-decoration: underline;
+}
+p{
+    margin-top: unset;
+}
+label{
+     padding:5px ;
+     
+    display: block;
+  }
+  form{
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: whitesmoke;
+    background-color: rgba(50, 0, 100, 0.4);
+    margin: 20px auto;
+    width:700px;  
+}
+.input{
+    margin:10px 0 0 0;
+    display: block;
+}
+.number{
+    width:10rem;
+}
+.heading{
+    font-size: larger;
+    font-style: italic;
+}
+ fieldset{
+    border: 0;
+    padding: 2rem;
+    border-bottom: 3px solid darkred;
+ }
+ fieldset:last-of-type{
+    border-bottom: none;
+ }
+ input[type="submit"] {
+padding: 5px auto;
+background:linear-gradient(180deg,rgb(0,0,0),rgb(255,255,255),rgb(0,0,0));
+display: block;
+margin: 10px auto;
+margin-bottom: -5px;
+
+ }
+ a{
+    color:white;
+ }
